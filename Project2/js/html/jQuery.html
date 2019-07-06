@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+     <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+
+    <link href="../css/home.css" rel="stylesheet" />
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/examjquery.js"></script>
+</head>
+<body>
+   	<div class="container-fluid">
+		<!--<div class="container">-->
+		<nav class="navbar navbar-expand-lg navbar-light" id="nav">
+			<a class="navbar-brand disabled" href="Home.html">
+				<img src="../img/register.png" id="img_brand" />
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link style_nav" href="Home.html" target="_self">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<!--<li class="nav-item">
+						<a class="nav-link style_nav" href="Register.html">Register</a>
+					</li>-->
+<!--
+					<li class="nav-item">
+						<a class="nav-link style_nav" href="Cards.html">Subjects</a>
+					</li>
+-->
+
+				</ul>
+				<!--<div class="form-inline my-2 my-lg-0" id="my">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btn_register">Regiter</button>
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btn_login">Log In</button>
+				</div>-->
+			</div>
+		</nav>
+	</div>
+	<div class="container-fluid">
+    <div class="conyainer-fluid exam">
+     
+        <div class="container timer"id="mytimer">
+        <span id="mytime"></span>
+            
+        </div>
+         <div class="container">
+        <div class="row">
+            <div class="col-6 startbtn">
+                <input type="button" id="startExambtn" value="Start Exam" class="btn-primary">
+            </div>
+            <div class="col-8"><div id="radio_home"></div>
+        <!--<div id="divsubmit" >
+            <input type="button" id="btnsubmit" class="btndesign ml-5" value="submit"/>
+        </div>-->
+                <div class="container" id="divsubmit">
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="btnsubmit">submit</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+
+                                    <h4 class="modal-title">Your Score at This Exam</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p id="scorejquery"></p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+
+        </div>
+        <div class="container" id="divExam">
+            <div class="row">
+                <div classs="col"></div>
+            </div>
+        </div>
+    </div>
+        
+	
+	</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4495C78B-6F31-4306-B8C1-BA453F3C292E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project2</RootNamespace>
+    <AssemblyName>Project2</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\home.css" />
+    <Content Include="html\Exam JS.html" />
+    <Content Include="html\Exam OOP.html" />
+    <Content Include="html\ExamCSS.html" />
+    <Content Include="html\jQuery.html" />
+    <Content Include="html\Register.html" />
+    <Content Include="html\Home.html" />
+    <Content Include="html\Cards.html" />
+    <Content Include="img\49944.png" />
+    <Content Include="img\adagency2-home-section-bg-2.jpg" />
+    <Content Include="img\bg-10.jpg" />
+    <Content Include="img\bg-11.jpg" />
+    <Content Include="img\bg-35.jpg" />
+    <Content Include="img\colorful-education-concept-with-flat-design_23-2147902567.jpg" />
+    <Content Include="img\css.png" />
+    <Content Include="img\fb-25.jpg" />
+    <Content Include="img\fb-27.jpg" />
+    <Content Include="img\flat-background-with-chronometer-hands-holding-checklist_23-2147613034.jpg" />
+    <Content Include="img\giant-checklist_52683-4355.jpg" />
+    <Content Include="img\green-pencils-container_23-2147885284.jpg" />
+    <Content Include="img\home_elearning_blog1-960x720.jpg" />
+    <Content Include="img\home_elearning_slider_slide1.jpg" />
+    <Content Include="img\html5.png" />
+    <Content Include="img\jquery.png" />
+    <Content Include="img\js.png" />
+    <Content Include="img\logo.jpg" />
+    <Content Include="img\logo2.jpg" />
+    <Content Include="img\online-education-isometric-concept-laptop-book-internet-course-learning-home_39422-1020.jpg" />
+    <Content Include="img\oop3.png" />
+    <Content Include="img\register.png" />
+    <Content Include="img\sql.png" />
+    <Content Include="img\teen-student-holding-paper-with-perfect-school-exam-test_53562-3259.jpg" />
+    <Content Include="img\workspace-cartoon-style_23-2147508020.jpg" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\ExamCSS.js" />
+    <Content Include="js\ExamjQuery.js" />
+    <Content Include="js\ExamOOP.js" />
+    <Content Include="js\home.js" />
+    <Content Include="js\ExamJavaScript.js" />
+    <Content Include="js\jquery-3.3.1.slim.min.js" />
+    <Content Include="js\jquery.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

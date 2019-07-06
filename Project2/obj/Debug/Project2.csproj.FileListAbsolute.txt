@@ -1,0 +1,15 @@
+c:\users\ascom\documents\visual studio 2015\Projects\Project2\Project2\bin\Debug\Project2.exe.config
+D:\Exam Project\esraa project-exam\Project2\Project2\bin\Debug\Project2.exe.config
+C:\Users\ascom\Music\project-exam\esraa pro exam\esraa project-exam\Project2\Project2\bin\Debug\Project2.exe.config
+C:\Users\ascom\Music\project-exam\esraa pro exam\esraa project-exam\Project2\Project2\bin\Debug\Project2.exe
+C:\Users\ascom\Music\project-exam\esraa pro exam\esraa project-exam\Project2\Project2\bin\Debug\Project2.pdb
+C:\Users\ascom\Music\project-exam\esraa pro exam\esraa project-exam\Project2\Project2\obj\Debug\Project2.csprojResolveAssemblyReference.cache
+C:\Users\ascom\Music\project-exam\esraa pro exam\esraa project-exam\Project2\Project2\obj\Debug\Project2.exe
+C:\Users\ascom\Music\project-exam\esraa pro exam\esraa project-exam\Project2\Project2\obj\Debug\Project2.pdb
+E:\ITI\project-exam2\esraa pro exam\esraa project-exam\Project2\Project2\bin\Debug\Project2.exe.config
+E:\ITI\project-exam2\esraa pro exam\esraa project-exam\Project2\Project2\bin\Debug\Project2.exe
+E:\ITI\project-exam2\esraa pro exam\esraa project-exam\Project2\Project2\bin\Debug\Project2.pdb
+E:\ITI\project-exam2\esraa pro exam\esraa project-exam\Project2\Project2\obj\Debug\Project2.csprojAssemblyReference.cache
+E:\ITI\project-exam2\esraa pro exam\esraa project-exam\Project2\Project2\obj\Debug\Project2.csproj.CoreCompileInputs.cache
+E:\ITI\project-exam2\esraa pro exam\esraa project-exam\Project2\Project2\obj\Debug\Project2.exe
+E:\ITI\project-exam2\esraa pro exam\esraa project-exam\Project2\Project2\obj\Debug\Project2.pdb

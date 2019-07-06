@@ -1,0 +1,116 @@
+<html>
+<head>
+    <title>Register</title>
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/home.css" rel="stylesheet" />
+    <script src="../js/jquery.js"></script>
+    <script src="../js/home.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <!--<div class="container">-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+            <a class="navbar-brand disabled" href="Home.html">
+                <img src="../img/register.png" id="img_brand" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link style_nav" href="Home.html" target="_self">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a class="nav-link style_nav" href="Register.html">Register</a>
+                    </li>-->
+                    <!--
+                                        <li class="nav-item">
+                                            <a class="nav-link style_nav" href="Cards.html">Subjects</a>
+                                        </li>
+                    -->
+
+                </ul>
+                <div class="form-inline my-2 my-lg-0" id="my">
+                    <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btn_register">Regiter</button>-->
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btn_login">Log In</button>
+                
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid">
+        <div class="row flx">
+
+            <div class="col-md-6 m-md-3 p-5 flx1">
+                <form>
+                    <div class="container-fluid" id="form">
+                        <div class="container p-3">
+
+                            <div id="Register" style="align-content:center; ">
+                                <label class="pr-5 pb-3" style="font-size:25px ; margin-left:-30px">User Name</label><span id="regnamereq" style="color:red;font-weight: 600"></span>
+                                <input type="text" placeholder="enter your user name" style="border-radius:10%" id="Reg_name" />
+                                <span style="display:none" id="fault_name">*your username token before</span>
+                                <br />
+                                <label class="pr-5 pb-3" style="font-size:25px ; margin-left:-30px">Password</label><span id="regpassreq" style="color:red;font-weight: 600"></span>
+                                <input type="password" placeholder="enter your password" style="border-radius:10% ; margin-left:18px " id="Reg_password" />
+                                <br />
+                                <input type="button" class="btndesign mr-lg-3 mt-3" value="Sign Up" id="Reg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div id="reg_sucess" style="display:none">Register succesfully , please login.</div>
+                </form>
+            </div>
+            <div class="col-md-4 col-sm-6 flx2">
+                <img src="../img/register.png" class="img_register" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <span id="register_sucess" style="display:none ; margin-top:-300px ; font-size:25px">Registered Successfully , Please Login</span>
+            <span id="login_sucess" style="display:none ; margin-top:-300px ; font-size:25px">Logined Successfully</span>
+
+        </div>
+    </div>
+    <div class="container-fluid" id="fo2">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                 <div class="form-popup" id="myForm">
+                            <form action="/home.html" class="form-container">
+                                <h1>Login</h1>
+
+                                <label for="email"><b>Name</b></label> <span id="namereq" style="color:red;font-weight: 600"></span>
+                                <input type="text" placeholder="Enter Name" id="email" required>
+                              
+
+                                <label for="psw"><b>Password</b></label>  <span  id="passreq" style="color:red;font-weight: 600"></span>
+
+                                <input type="password" placeholder="Enter Password" id="psw" required>
+                               
+
+                                <button type="button" id="popuploginbtn" class="btn">Login</button>
+                                <button type="button" id="popupcancelbtn" class="btn cancel">Close</button>
+                                
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#" id="signout" style="font-size:15px">Sign Out</a>
+
+                        </div>
+                            </form>
+                        </div>
+
+
+                </div>
+            </div>
+        </div>
+        <footer class="footer"></footer>
+    </div>
+</body>
+</html>

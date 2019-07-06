@@ -1,0 +1,436 @@
+﻿#reg_sucess
+{
+    font-size:25px
+}
+.modal-content
+{
+    background-color:#fad089;
+}
+body{
+    background-color: #fad089;
+/*    background-color:#e88a1a*/
+}
+#btn_login
+{
+    margin-left:10px;
+    border-radius:30%;
+    background-color:black;
+    color:white;
+    border:2px #0a516d;
+    font-weight:500;
+
+}
+
+    #btn_login:hover {
+        color: black;
+        background-color:white;
+    }
+#btn_register {
+    border-radius: 30%;
+    background-color: black;
+    color: white;
+    border: 2px #0a516d;
+    font-weight: 500;
+}
+    #btn_register:hover {
+        color: black;
+        background-color: white;
+    }
+.btn-secondary
+{
+     border-radius: 30%;
+    background-color: black;
+    color: white;
+    border: 2px #0a516d;
+    font-weight: 500;
+}
+.btn-secondary:hover {
+        color: black;
+        background-color: white;
+    }
+#nav{
+    background-color:#fad089;
+    border-bottom: 1px solid black;
+   
+}
+    #nav a {
+        color: black;
+        font-size:25px
+    }
+        #nav a:hover {
+            color: white;
+        }
+
+
+.style_nav
+{
+    padding-left:30px !important;
+    font-size:20px;
+}
+#img_brand {
+    width: 70px;
+    height: 60px
+}
+.home {
+    background-image: url("../img/home_school2_pic3.jpg");
+    background-size:100% 100%;
+    height:650px;
+}
+.slide {
+    height:400px;
+    width:500px;
+}
+    .slide img {
+        height:400px;
+        width:100%;
+    }
+
+.creative h2 {
+    font-size: 38px;
+    letter-spacing: -1px;
+    font-weight: 700 !important;
+    color: #1f1f1f;
+    font-family: "Krona One", Arial, Tahoma, sans-serif;
+    line-height: 1.3;
+}
+
+.creative h4 {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #787878;
+}
+
+
+.chead {
+    background-color: #f5f4e3;
+    padding: 5px;
+    width: 100px;
+  
+}
+#mycard:hover .chead
+{
+      position: relative;
+    animation-name: head;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes head {
+    0% {
+        left: 150px;
+        opacity: 0
+    }
+
+    100% {
+        left: 0;
+        opacity: 1;
+        transform: rotate(360deg)
+    }
+}
+.card {
+    border:0;
+}
+
+.myhead {
+    font-size: 35px;
+    line-height: 55px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-family: "Krona One", Arial, Tahoma, sans-serif;
+    text-align: center;
+    color:  #fad089;
+    position:relative;
+    animation-name:head;
+    animation-duration:1.5s;
+}
+.mylist li {
+    list-style: none;
+    color:  #fad089;
+    list-style-image: url("../img/test (1).png");
+    padding-top: 10px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5;
+    font-family: "Krona One", Arial, Tahoma, sans-serif;
+}
+
+.card-img-top {
+    height: 300px;
+    border-radius: 40px;
+    opacity: 0.9;
+}
+
+    .card-img-top:hover {
+        opacity: 1;
+    }
+
+.img_register {
+    width: 300px;
+   
+    height: 400px;
+}
+
+.caption {
+    /*margin-top: 50px*/
+}
+
+h1 {
+    text-align: center;
+    color: #0a516d
+    /*color:#f77754;*/
+}
+
+
+/*Start of Cards*/
+.chead {
+    background-color: #f5f4e3;
+    padding: 5px;
+    width: 100px;
+  
+}
+#mycard:hover .chead
+{
+      position: relative;
+    animation-name: head;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes head {
+    0% {
+        left: 150px;
+        opacity: 0
+    }
+
+    100% {
+        left: 0;
+        opacity: 1;
+        transform: rotate(360deg)
+    }
+}
+
+.card {
+    border-radius: 40px;
+}
+.btndesign {
+    line-height: 48px;
+    border-width: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #1f1f1f;
+    border-color: #dedede;
+    background-color: #e88a1a;
+    color:white;
+    padding: 0 30px;
+    height: 50px;
+    margin-bottom: 40px;
+    font-family: "Krona One", Arial, Tahoma, sans-serif;
+}
+
+.btndesign:hover {
+    background-color: white;
+    color:black;
+}
+
+/*(end of cards)*/
+.img_register {
+    width: 400px;
+    float: right;
+    height: 500px;
+}
+.caption
+{
+    margin-top:50px
+}
+h1{
+    text-align:center;
+    color:#0a516d
+    /*color:#f77754;*/
+}
+/*.column {
+  float: left;
+  width: 50%;
+}*/
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+#fault_name{
+    color:black;
+    display:inline-block
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/* Exam page */
+
+
+.exam {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display:none;
+}
+.exam label {
+    padding:10px;
+}
+#nameQuestion {
+    padding-top:30px;
+        font-weight: 600;
+
+}
+
+.timer
+{
+    background-color: black;
+    width:200px;
+    height:60px;
+    position:fixed;
+    right:100px;
+    top:120px;
+    font-size: 25px;
+    color:#d5d8c2;
+    border-radius: 20px;
+    font-weight: 600;
+      font-family: 'Source Sans Pro', sans-serif;
+    display:none
+
+}
+#radio_home
+{
+    display:none;
+}
+#btnsubmit
+{ display:none;}
+#startExambtn
+
+{
+    font-size: 45px;
+    padding:20px;
+    position:relative;
+    left:300px;
+    top:150px;
+          font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+    border-radius: 20px;
+    border:0;
+      color: white;
+    background-color: #1f1f1f;
+
+}
+
+
+/*end of exam*/
+@media only screen and (max-width: 500px) {
+  
+   
+    .flx
+    {
+        display:flex;
+    }
+     .img_register {
+        height:300px;
+        width:300px;
+        
+    }
+    .flx1
+    {
+        order:2;
+    }
+     .flx2
+    {
+        order:1;
+    }
+    .slide {
+        height:150px;
+        width:350px;
+    }
+    .slide img {
+        height:150px;
+        width:350px;
+    }
+    .info {
+        height:100px;
+        font-size:22px;
+        width:350px;
+       
+    }
+    .myhead {
+        font-size: 22px;
+    }
+    .mylist {
+        font-size:16px;
+    }
+    .home {
+        height:auto;
+        background-size:auto;
+    }
+    #startExambtn
+    {
+        left:20px;
+        top:20px
+    }
+    
+    
+} 
